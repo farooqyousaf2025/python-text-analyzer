@@ -67,4 +67,4 @@ git init
 git add .
 git commit -m "Initial commit: Python Text Analyzer"
 git remote add origin git@github.com:farooqyousaf2025/python-text-analyzer.git
-git push -u origin master
+git push -u origin master"# python-text-analyzer" 
