@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-analyzer-cli"
+version = "2.0.0"
+description = "Zero-dependency text analyzer: counts, readability, sentiment, keywords, charts, web UI."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Farooq Yousaf", email = "farooqyousaf2025@gmail.com" }]
+keywords = ["text-analysis", "cli", "readability", "nlp"]
+classifiers = [
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.scripts]
+text-analyzer = "src.main:main"
+
+[tool.setuptools]
+packages = ["src"]

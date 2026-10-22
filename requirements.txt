@@ -1,0 +1,2 @@
+# No third-party dependencies required.
+# The analyzer uses only the Python standard library (csv, json, argparse, statistics, collections).
